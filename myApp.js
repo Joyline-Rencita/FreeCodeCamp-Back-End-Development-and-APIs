@@ -20,6 +20,7 @@ app.get("/", (req, res) => {
 
 // Challenge 4: Serve Static Assets
 app.use("/public", express.static(__dirname + "/public"));
+
 // challenge 11 : Use body-parser to Parse POST Requests
 app.use(bodyParser.urlencoded({extended: false}))
 
